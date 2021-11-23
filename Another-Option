@@ -27,6 +27,8 @@ if ( $i > 0) {
 
 curl_close($check);
 
+} else {
+echo "no stream channel, 2ndopt.php?who=...channel name...";
 }
 
 
